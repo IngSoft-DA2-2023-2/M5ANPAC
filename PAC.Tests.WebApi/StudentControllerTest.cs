@@ -11,14 +11,8 @@ using Microsoft.AspNetCore.Mvc;
 [TestClass]
 public class StudentControllerTest
 {
-    [TestClass]
-    public class UsuarioControllerTest
-    {
         [TestInitialize]
         public void InitTest()
         {
         }
-
-
-    }
 }
