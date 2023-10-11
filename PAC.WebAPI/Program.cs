@@ -16,6 +16,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<DbContext, PacContext>();
 builder.Services.AddScoped<IStudentsRepository<Student>, StudentsRepository<Student>>();
+builder.Services.AddScoped<IStudentLogic, StudentLogic>();
 
 var app = builder.Build();
 
